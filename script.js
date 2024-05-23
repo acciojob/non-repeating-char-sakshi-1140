@@ -6,6 +6,7 @@ function firstNonRepeatedChar(str) {
    if(str.indexOf(temp)==str.lastIndexOf(temp))
    return temp
  }
+	return null
 }
 const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+//alert(firstNonRepeatedChar(input)); 
