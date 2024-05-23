@@ -1,12 +1,12 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-	for(let i=0;i<str.length;i++)
+ for(let i=0;i<str.length;i++)
  {
    let temp=str[i]
    if(str.indexOf(temp)==str.lastIndexOf(temp))
    return temp
  }
-	return null
+ return null
 }
 const input = prompt("Enter a string");
 //alert(firstNonRepeatedChar(input)); 
